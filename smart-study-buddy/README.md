@@ -2,7 +2,8 @@
 
 An AI-powered study assistant that converts PDFs into high-quality MCQ quizzes with scoring, topic-level feedback, and source citations.
 
-
+## 📸 Demo
+_Screenshots and demo GIF will be added here._
 
 ## 🚀 What this app does
 - Upload a PDF (lecture notes, slides, textbooks)
@@ -15,18 +16,23 @@ An AI-powered study assistant that converts PDFs into high-quality MCQ quizzes w
 Studying from long PDFs is time-consuming and inefficient.  
 This tool helps learners **test understanding quickly** and **focus on weak areas** without re-reading everything.
 
+## 🔍 How it works
+1. User uploads a PDF document
+2. Text is extracted and split into manageable chunks
+3. OpenAI generates MCQs with correct answers and explanations
+4. User answers questions in the Streamlit UI
+5. App computes the score and identifies weak topics
+6. Each question includes page-level citations back to the PDF
 
 ## 🛠️ Tech Stack
 - **Frontend**: Streamlit
-- **Backend / AI**: OpenAI API
+- **LLM / AI**: OpenAI API
 - **Document Processing**: PDF text extraction + chunking
 - **Language**: Python
-- **Deployment-ready**: Streamlit Cloud
 
 ## ⚙️ How to run locally
 
+### 1) Clone the repo
 ```bash
 git clone https://github.com/RamyaVetukuri/llm-apps.git
 cd llm-apps/smart-study-buddy
-python -m pip install -r requirements.txt
-python -m streamlit run app.py
