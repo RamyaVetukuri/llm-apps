@@ -2,7 +2,7 @@
 
 An AI-powered study assistant that converts PDFs into high-quality MCQ quizzes with scoring, topic-level feedback, and source citations.
 
----
+
 
 ## 🚀 What this app does
 - Upload a PDF (lecture notes, slides, textbooks)
