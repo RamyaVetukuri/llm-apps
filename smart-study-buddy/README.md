@@ -11,13 +11,10 @@ An AI-powered study assistant that converts PDFs into high-quality MCQ quizzes w
 - Scores answers and highlights weak focus areas
 - Provides page-level citations (PDF-only)
 
----
-
 ## 🧠 Why I built this
 Studying from long PDFs is time-consuming and inefficient.  
 This tool helps learners **test understanding quickly** and **focus on weak areas** without re-reading everything.
 
----
 
 ## 🛠️ Tech Stack
 - **Frontend**: Streamlit
@@ -25,8 +22,6 @@ This tool helps learners **test understanding quickly** and **focus on weak area
 - **Document Processing**: PDF text extraction + chunking
 - **Language**: Python
 - **Deployment-ready**: Streamlit Cloud
-
----
 
 ## ⚙️ How to run locally
 
